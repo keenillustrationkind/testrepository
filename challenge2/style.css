@@ -73,3 +73,21 @@ img {
     border-radius: 10px;
     
 }
+
+@media screen and (max-width: 420px) {
+    .sectionfirst {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .sectionfirst {
+        padding: 40px 10px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .sectionfirst {
+        padding: 40px 5px;
+    }
+}
