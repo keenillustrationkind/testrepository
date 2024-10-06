@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter";
+    background-color: #141414;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.sectionfirst {
+    background-color: #1e1e1e;
+    padding: 50px 30px 20px 30px;
+    border-radius: 11px;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 90px;
+    height: 90px;
+    border-radius: 200px;
+}
+
+.texte {
+    text-align: center;
+}
+
+.texte h1 {
+    color: white;
+    margin-top: 27px;
+}
+
+.texte p:nth-child(2) {
+    color: #a9bc69;
+    margin-top: 10px;
+}
+
+.texte p:nth-child(3) {
+    color: #787878;
+    margin-top: 30px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    background-color: #323232;
+    width: 350px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    
+}
+
+@media screen and (max-width: 420px) {
+    .sectionfirst {
+        padding: 40px 20px;
+    }
+}
+
+@media screen and (max-width: 399px) {
+    .sectionfirst {
+        padding: 40px 10px;
+    }
+}
+
+@media screen and (max-width: 377px) {
+    .sectionfirst {
+        padding: 40px 5px;
+    }
+}
