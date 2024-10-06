@@ -42,7 +42,7 @@ img {
 }
 
 .texte p:nth-child(2) {
-    color: #bed386;
+    color: hsl(75, 94%, 57%);
     margin-top: 10px;
 }
 
